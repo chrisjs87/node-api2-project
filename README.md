@@ -8,27 +8,20 @@ Use `Node.js` and `Express` to build an API that performs _CRUD_ operations on `
 
 ### Task 1: Project Setup
 
-There are two possible ways to submit your project. Your instructor should have communicated which method to use for this project during the Guided Project and in your cohort's Slack channel. If you are still unsure, reach out to Lambda Staff.
-
 #### Option A - Codegrade
 
-- [ ] Fork and clone the repository.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submssion.
-
-#### Option B - Pull Request
-
-- [ ] Fork and clone the repository.
-- [ ] Implement your project in a `firstname-lastname` branch.
-- [ ] Create a pull request of `firstname-lastname` against your `main` branch.
-- [ ] Open the assignment in Canvas and submit your pull request.
+- [COMPLETE] Fork and clone the repository.
+- [COMPLETE] Open the assignment in Canvas and click on the "Set up git" option.
+- [COMPLETE] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [COMPLETE] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [COMPLETE] Check to see that Codegrade has accepted your git submssion.
 
 ### Task 2: Minimum Viable Product
 
 - Add the code necessary to `index.js`, `api/server.js` and `api/posts/posts-router.js` to implement the endpoints listed below.
+
 - Separate the endpoints that begin with `/api/posts` into a separate Express Router inside `api/posts/posts-router.js`.
+
 - Configure the API to handle to the following routes. Some of these endpoints might require more than one call to the provided database helpers inside `api/posts/posts-model.js`.
 
 | N | Method | Endpoint                | Description                                                                                                                     |
